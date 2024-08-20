@@ -1,0 +1,136 @@
+/* Estilos para os títulos da tabela e do formulário */
+h1, h2 {
+    text-align: center; /* Centraliza o texto */
+    color: #333; /* Cor do texto */
+    margin-top: 20px; /* Margem superior */
+}
+
+/* Estilos para o formulário de cadastro */
+form {
+    margin-bottom: 20px;
+    max-width: 400px; /* Define a largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário na página */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao formulário */
+}
+
+form h2 {
+    margin-top: 0; /* Remove a margem superior do título */
+    margin-bottom: 20px;
+    font-size: 24px; /* Tamanho do título */
+}
+
+/* Estilos para a tabela */
+#servidoresTable {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#servidoresTable th, #servidoresTable td {
+    border: 1px solid #ddd;
+    padding: 10px; /* Aumenta o padding para melhor espaçamento */
+    text-align: left;
+}
+
+#servidoresTable th {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    font-size: 18px; /* Tamanho do texto do cabeçalho */
+}
+
+/* Estilos para os botões de editar e excluir */
+.edit-btn {
+    background-color: #4CAF50; /* Verde */
+}
+
+.delete-btn {
+    background-color: #F44336; /* Vermelho */
+}
+
+button.edit-btn, button.delete-btn {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 0px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button.edit-btn:hover, button.delete-btn:hover {
+    opacity: 0.8;
+}
+
+/* Estilos para o modal de edição */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Estilos para os campos de entrada do formulário */
+input[type="text"] {
+    width: 100%; /* Define a largura para ocupar todo o espaço disponível */
+    padding: 10px; /* Aumenta o padding para melhor espaçamento */
+    margin-bottom: 10px; /* Define a margem inferior entre os campos */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo para o botão de envio do formulário */
+button[type="submit"] {
+    width: 100%; /* Define a largura para ocupar todo o espaço disponível */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Estilos para o modal */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: fit-content; /* Define o tamanho do modal de acordo com o conteúdo interno */
+    border-radius: 8px;
+}
+
+/* Estilos para o botão de cadastrar */
+#cadastroForm button[type="submit"] {
+    background-color: #007bff; /* Altera a cor do botão para azul */
+}
+
